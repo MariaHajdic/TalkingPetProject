@@ -1,0 +1,18 @@
+app/ storing screens and routes for the app, such as LoginScreen
+assets/ static resources such as images, fonts, audios
+components/ for reusable UI-components - buttons, forms, etc.
+constants/ configs used throughout the whole app, such as URL API
+hooks/ reusable state logic
+scripts/ e.g. build settings, testing
+
+services/ DB logic, authorisation, authentication
+backend/ using python
+
+
+SQLite with Node.js integration via sqlite3 lib.
+Lets interact with the store within the js code.
+Express - web framework for creating servers.
+JsonWebToken - lib for working with JWT.
+Bcryptjs - for hashing passwords.
+Body-parser - for JSON requests.
+Express-JWT - middleware for checking JWT in requests.
